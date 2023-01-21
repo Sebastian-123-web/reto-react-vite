@@ -1,0 +1,31 @@
+
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    z-index: 9;
+    position: relative;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px 10px 0 0;
+}
+
+.img-profile{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 92px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: #fff;
+}
