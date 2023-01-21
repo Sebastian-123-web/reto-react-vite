@@ -10,7 +10,7 @@ const Card = () => {
             <img src={imgProfile} alt="" className='img-profile' />
             <div className='card-body'>
                 <div className='card-body-info'>
-                    <div>
+                    <div className='info-user'>
                         <h2>Victor Crest</h2>
                         <p>26</p>
                     </div>
