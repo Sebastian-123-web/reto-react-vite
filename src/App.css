@@ -16,3 +16,33 @@ body{
     right: -100px;
     top: 400px;
 }
+
+@media screen and ( max-width:600px ){
+    .svg-top{
+        transition: all;
+        position: absolute;
+        left: -700px;
+        top: -550px;
+        
+    }
+    .svg-bottom{
+        position: absolute;
+        right: -600px;
+        top: 400px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1024px){
+    .svg-top{
+        transition: all;
+        position: absolute;
+        left: -500px;
+        top: -550px;
+        
+    }
+    .svg-bottom{
+        position: absolute;
+        right: -400px;
+        top: 400px;
+    }
+}
