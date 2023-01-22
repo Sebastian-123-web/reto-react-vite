@@ -1,19 +1,18 @@
+body{
+    overflow: hidden;
+}
 .app{
     width: 100vh;
     height: 100vh;
 }
-
-
-
-/*
 .svg-top{
     position: absolute;
-    top: -478px;
-    left: -478px;
+    left: -200px;
+    top: -400px;
+    
 }
 .svg-bottom{
     position: absolute;
-    right: -478px;
-    bottom: -478px; 
+    right: -100px;
+    top: 400px;
 }
-*/
